@@ -27,7 +27,13 @@
 
 A continuación, se muestran algunas imágenes de la aplicación en funcionamiento:
 
-![screenshot]()
+![screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeKw3MlfyqhOf78XIafJTeqZPL-kzFj2NlwNTUXQy4LTWEpgHzIOQ38mRuSaoHvwte2S2KpE31gR7hGN3P3hEaIs4yNDfboLUbaLLzJNV0qT5G9bd73sirOod-w7dn7Tjx8CoGFN2Yhac4heWUdn5EKKMkQ5wYf4hI466Vo2vv0q1qq3lNDtcTDqpsOX4/s1845/1.png)
+
+![screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRTB4klf5Tt-3DcCdKGoAbHhyzUERNw9Zu5aPTmAOzZT3OvTYo0L63NeqoyD7Sfq31VofV26MF-XT_XI-Mn2LOhhK50Fpb1grhyphenhyphenrYC3I008Lt2S7VYn8z2dtmYYZKt8pZfNxQAoJoXZoQimnopkVzMKdKlGwiCRxiyzLLgHFo7Bf5WQ3JO6aqVCSfpuuk/s1844/2.png)
+
+![screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiezAVVDCrGgABSqt20S4KKqg7_5hrMuKoGlB2bBgGvYF7-P8TzLvfJhWOnGpquh19VZtzcLEEwKEObp976R1zoUux27wpvPOR8LSFwk3qqbp5q0tuZGeBlUKXGEVaGIAlRINuo6qphNeUuSyLEEEpiDEH4AW952phMGXC2u_JD2GQLHa0RTi6Wa2M45YI/s1843/3.png)
+
+![screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiW_KvUCOge8CRkl-bzn8n1QhpX1c5R_YJ_hKOOy9wGpVYM9moB0ocg6aqbCZO_TX-NfTJo7Ds_P6zT_LprxeMEmpmkMQrS5HduzsaZGGOBpjx9klWMbXBtdq3GbKrs6sST2legS-DnARNF-iPyzu4T_kewnrT1F71-yUC0IpXRsi8KHGYmqvW96U9311s/s1846/4.png)
 
 ### Instalación del proyecto
 
