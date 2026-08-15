@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gv-bg: #fbf1c7;
+  --color-gv-bg-soft: #f2e5bc;
+  --color-gv-surface: #ebdbb2;
+  --color-gv-fg: #282828;
+  --color-gv-accent: #d79921;
+  --color-gv-primary: #cc241d;
+  --color-gv-primary-dark: #9d0006;
+}
+
+html {
+  transition: background-color 0.4s ease;
+}
+
+body {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}

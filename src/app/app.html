@@ -1,0 +1,21 @@
+<button
+  data-testid="open-about-btn"
+  (click)="onOpenAbout()"
+  class="fixed top-5 right-5 text-gv-fg/60 hover:text-gv-fg transition-colors p-1.5 z-10"
+  aria-label="Acerca de"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <circle cx="12" cy="12" r="9" />
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 16v-4m0-4h.01" />
+  </svg>
+</button>
+
+<div class="min-h-screen bg-gv-bg text-gv-fg transition-colors duration-500 flex flex-col items-center py-10 px-4">
+  <div class="w-full max-w-xl">
+    <app-timer />
+    <app-task-list class="mt-8 block" />
+  </div>
+</div>
+
+<app-settings-modal />
+<app-about-modal />

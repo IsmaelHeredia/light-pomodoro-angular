@@ -1,0 +1,42 @@
+<div>
+  <div class="flex items-center justify-between mb-3 px-1">
+    <h2 class="text-gv-fg font-bold text-lg">Tareas</h2>
+  </div>
+
+  <div
+    cdkDropList
+    data-testid="task-list"
+    (cdkDropListDropped)="onDrop($event)"
+    class="flex flex-col gap-2"
+  >
+    @for (task of tasksService.tasks(); track task.id) {
+      <app-task-item [task]="task" />
+    } @empty {
+      <p data-testid="task-list-empty" class="text-gv-fg/50 text-sm text-center py-4">No hay tareas todavía.</p>
+    }
+  </div>
+
+  @if (isAdding()) {
+    <div class="mt-3 flex items-center gap-2 border-2 border-dashed border-gv-primary-dark/40 rounded-lg px-3 py-2.5">
+      <input
+        data-testid="new-task-input"
+        type="text"
+        [(ngModel)]="newTaskName"
+        (keydown.enter)="onAdd()"
+        (keydown.escape)="isAdding.set(false)"
+        (blur)="onAdd()"
+        autofocus
+        placeholder="Nombre de la tarea"
+        class="flex-1 bg-transparent outline-none text-gv-fg placeholder:text-gv-fg/40"
+      />
+    </div>
+  } @else {
+    <button
+      data-testid="add-task-btn"
+      (click)="isAdding.set(true)"
+      class="mt-3 w-full border-2 border-dashed border-gv-fg/20 hover:border-gv-primary-dark/50 rounded-lg px-3 py-3 text-gv-fg/50 hover:text-gv-fg/80 text-sm font-semibold transition-colors flex items-center justify-center gap-2"
+    >
+      <span class="text-lg leading-none">+</span> Agregar Tarea
+    </button>
+  }
+</div>
